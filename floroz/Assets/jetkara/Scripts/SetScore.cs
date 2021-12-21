@@ -7,7 +7,7 @@ public class SetScore : MonoBehaviour
 
 	void Start () 
 	{
-		scoreLabel.text = "Score: " + GameManager.score.ToString();
+		scoreLabel.text = "Набрано: " + GameManager.score.ToString();
 
 		if (GameManager.score > 0)
 		{
@@ -18,7 +18,7 @@ public class SetScore : MonoBehaviour
 			}
 		}
 
-		bestScoreLabel.text = "HighScore: " + PlayerPrefs.GetInt("Score", 0).ToString();
+		bestScoreLabel.text = "Максимальный счёт: " + PlayerPrefs.GetInt("Score", 0).ToString();
 		GameManager.score = 0;
 	}
 }
