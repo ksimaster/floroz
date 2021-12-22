@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 7  (6.1.0) 64bit' Language: 'ru' Physical Memory: 8075 MB
+OS: 'Windows 10 Home Single Language; OS build 19043.1415; Version 2009; 64bit' Language: 'ru' Physical Memory: 16322 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,117 +11,116 @@ C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/kycaka/Documents/GitHub/floroz/floroz
+C:/GitHub/floroz/floroz
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59932
-Successfully changed project path to: C:/Users/kycaka/Documents/GitHub/floroz/floroz
-C:/Users/kycaka/Documents/GitHub/floroz/floroz
+50040
+Successfully changed project path to: C:/GitHub/floroz/floroz
+C:/GitHub/floroz/floroz
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 59.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/kycaka/Documents/GitHub/floroz/floroz/Assets
+[Subsystems] Discovering subsystems at path C:/GitHub/floroz/floroz/Assets
 GfxDevice: creating device client; threaded=0
-d3d11: CreateDXGIFactory2(...) not found, fallbacking to CreateDXGIFactory1(...).
-d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
     Vendor:   
-    VRAM:     2977 MB
-    Driver:   27.21.14.6140
+    VRAM:     5991 MB
+    Driver:   27.21.14.5671
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003419 seconds.
+Registered in 0.002476 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.49 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 41.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.504 seconds
+- Completed reload, in  1.268 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1505ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (1269ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (476ms)
-			LoadAssemblies (48ms)
+		EndReloadAssembly (419ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (165ms)
+			SetupTypeCache (150ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (192ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (165ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (94ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009583 seconds.
+Registered in 0.004462 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000000006B79F780 doesn't match image C:\Users\kycaka\Documents\GitHub\floroz\floroz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.87 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 44.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.350 seconds
+- Completed reload, in  1.202 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1351ms)
-		BeginReloadAssembly (150ms)
+	ReloadAssembly (1203ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1141ms)
-			LoadAssemblies (103ms)
+		EndReloadAssembly (1001ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (324ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (498ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (445ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (351ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2100 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.6 MB.
-System memory in use after: 93.7 MB.
+System memory in use before: 93.5 MB.
+System memory in use after: 93.6 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2540.
-Total: 5.617379 ms (FindLiveObjects: 0.464560 ms CreateObjectMapping: 0.154975 ms MarkObjects: 4.873136 ms  DeleteObjects: 0.119604 ms)
+Total: 2.984900 ms (FindLiveObjects: 0.207500 ms CreateObjectMapping: 0.090700 ms MarkObjects: 2.621700 ms  DeleteObjects: 0.064000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,558 +134,473 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/jetkara/Sprites/InGame/christmas-ball1.png
-  artifactKey: Guid(3914e3d8ae7ff2149bd6e1dc8242e2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sprites/InGame/christmas-ball1.png using Guid(3914e3d8ae7ff2149bd6e1dc8242e2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebbcc6306e8515b379d1651530320d0') in 0.703226 seconds 
-  Import took 0.707943 seconds .
+  path: Assets/jetkara/Icon.png
+  artifactKey: Guid(51a4ecd5c03ea7549bfba653c88a4016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Icon.png using Guid(51a4ecd5c03ea7549bfba653c88a4016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12fd794e2f37721064d693590ebfddd') in 0.148162 seconds 
+  Import took 0.151318 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000463 seconds.
-  path: Assets/jetkara/Sprites/InGame/premium-icon-cloud-3236851.png
-  artifactKey: Guid(76f076842a9f26b4ea84d693b87883df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sprites/InGame/premium-icon-cloud-3236851.png using Guid(76f076842a9f26b4ea84d693b87883df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9cba9721f6e3f65b56002c2a9a0bbc') in 0.015478 seconds 
-  Import took 0.018965 seconds .
+  Time since last request: 0.000650 seconds.
+  path: Assets/jetkara/Icon.png
+  artifactKey: Guid(51a4ecd5c03ea7549bfba653c88a4016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Icon.png using Guid(51a4ecd5c03ea7549bfba653c88a4016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12fd794e2f37721064d693590ebfddd') in 0.015309 seconds 
+  Import took 0.018463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 432.506175 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0dd3037fbfc9c284fbaca78978355d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0dd3037fbfc9c284fbaca78978355d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e3bedbb3e787fcc792cd8681c80bef') in 0.007143 seconds 
+  Import took 0.011510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.438754 seconds.
+  path: Assets/Particles
+  artifactKey: Guid(fa93a4a6036503641914134e6ea85e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles using Guid(fa93a4a6036503641914134e6ea85e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1642eef714ead2f39ce64c3c0e4b3b0c') in 0.006936 seconds 
+  Import took 0.009942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.600968 seconds.
+  path: Assets/Pictires
+  artifactKey: Guid(fed790605ca919b49ac74f72f9976148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictires using Guid(fed790605ca919b49ac74f72f9976148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e481ad91e2295bd7c092595f8648e6a5') in 0.007041 seconds 
+  Import took 0.009961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.870305 seconds.
+  path: Assets/Pictires/LogoAlwaysPlay.png
+  artifactKey: Guid(ab9daa910c602b948a340bcb97d81826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictires/LogoAlwaysPlay.png using Guid(ab9daa910c602b948a340bcb97d81826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1328ce9631d3f2d335f14729f8804ab5') in 0.021937 seconds 
+  Import took 0.025509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.485355 seconds.
+  path: Assets/Pictires/LogoAlwaysPlay_White.png
+  artifactKey: Guid(dde62ac902c74dd498201c6760803bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictires/LogoAlwaysPlay_White.png using Guid(dde62ac902c74dd498201c6760803bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1896394682f787ded8580700ad5fa89b') in 0.015435 seconds 
+  Import took 0.018589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.191630 seconds.
+  path: Assets/jetkara/Sprites/InGame/01.png
+  artifactKey: Guid(b9afd07611b7a434ead02d3dae840627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/InGame/01.png using Guid(b9afd07611b7a434ead02d3dae840627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3abb814478e7e0513196afbdb4f85aa') in 0.015403 seconds 
+  Import took 0.018660 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000267 seconds.
-  path: Assets/jetkara/Sprites/InGame/christmas-ball_1.png
-  artifactKey: Guid(3a6a670525296724097d53bbe1429dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sprites/InGame/christmas-ball_1.png using Guid(3a6a670525296724097d53bbe1429dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4656ec135d8ae5776920fb756bb8771c') in 0.011031 seconds 
-  Import took 0.015253 seconds .
+  path: Assets/jetkara/Sprites/InGame/christmas-ball1.png
+  artifactKey: Guid(3914e3d8ae7ff2149bd6e1dc8242e2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/InGame/christmas-ball1.png using Guid(3914e3d8ae7ff2149bd6e1dc8242e2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5b30a1cce2f676671ce45250d8fc9d') in 0.016525 seconds 
+  Import took 0.019365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/jetkara/Sprites/Menu/christmas-ball_2.png
+  artifactKey: Guid(59fc86f21ada4c94ca38f56beda18c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/Menu/christmas-ball_2.png using Guid(59fc86f21ada4c94ca38f56beda18c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd9dbbc5340c6c83b19715a8fecc77f') in 0.013210 seconds 
+  Import took 0.015959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/jetkara/Sprites/InGame/02.png
+  artifactKey: Guid(ad581831ee2f28e4f87e9945b415a01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/InGame/02.png using Guid(ad581831ee2f28e4f87e9945b415a01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef793acfe0902135b50c56c3bbcdac7') in 0.011273 seconds 
+  Import took 0.014122 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000234 seconds.
+  path: Assets/jetkara/Sprites/InGame/button.png
+  artifactKey: Guid(c8ff035d8e78b4e4c9351a43a90f7134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/InGame/button.png using Guid(c8ff035d8e78b4e4c9351a43a90f7134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f088041790e8f08d0686fb564acfcea4') in 0.032721 seconds 
+  Import took 0.035661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/jetkara/Sprites/InGame/christmas-ball_1.png
+  artifactKey: Guid(3a6a670525296724097d53bbe1429dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/InGame/christmas-ball_1.png using Guid(3a6a670525296724097d53bbe1429dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c164cd1810d8a5ea00f9426e6c3bd5') in 0.012337 seconds 
+  Import took 0.015304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/jetkara/Sprites/Menu/cloud.png
+  artifactKey: Guid(03a55190ac024f54bab79aa2a048d666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/Menu/cloud.png using Guid(03a55190ac024f54bab79aa2a048d666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d170c55f2b5095939f767f61ad4b6d') in 0.014018 seconds 
+  Import took 0.017138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
   path: Assets/jetkara/Sprites/InGame/christmas-ball.png
   artifactKey: Guid(b34bcef0b9d64944fb1e12e3e431c561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sprites/InGame/christmas-ball.png using Guid(b34bcef0b9d64944fb1e12e3e431c561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173bae052f6629aaa9ac225e06b0ac9d') in 0.011150 seconds 
-  Import took 0.015621 seconds .
+Start importing Assets/jetkara/Sprites/InGame/christmas-ball.png using Guid(b34bcef0b9d64944fb1e12e3e431c561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f62110d796f5089941a7e371339ced3') in 0.017456 seconds 
+  Import took 0.020712 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000287 seconds.
+  Time since last request: 0.000213 seconds.
   path: Assets/jetkara/Sprites/InGame/christmas-ball3.png
   artifactKey: Guid(6a4398b513ac54d4db18ecb48cf0b55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sprites/InGame/christmas-ball3.png using Guid(6a4398b513ac54d4db18ecb48cf0b55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d66fdbc33b0c7f26fb64dd1f66fa9c') in 0.009961 seconds 
-  Import took 0.013501 seconds .
+Start importing Assets/jetkara/Sprites/InGame/christmas-ball3.png using Guid(6a4398b513ac54d4db18ecb48cf0b55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ee5d164a9fcba835c7738ffd3d0678') in 0.014721 seconds 
+  Import took 0.017734 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
+  Time since last request: 0.000151 seconds.
+  path: Assets/jetkara/Sprites/kara.png
+  artifactKey: Guid(a7a2d396e5642b4459376de61d1c4539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/kara.png using Guid(a7a2d396e5642b4459376de61d1c4539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aaae4c98ffe4a15c7d787eb59d0a1c0') in 0.015867 seconds 
+  Import took 0.018777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/jetkara/Sprites/Menu/bg.png
+  artifactKey: Guid(939f698da4e32f74ba1d01ce7d9551c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/Menu/bg.png using Guid(939f698da4e32f74ba1d01ce7d9551c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2b64d44c6dfb188b7a9913ba0a3ac4') in 0.015480 seconds 
+  Import took 0.018740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
   path: Assets/jetkara/Sprites/InGame/free-icon-cloud-1163624.png
   artifactKey: Guid(51e2ad3ac7829074ca6bca08963c7f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sprites/InGame/free-icon-cloud-1163624.png using Guid(51e2ad3ac7829074ca6bca08963c7f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9887cc2db96fa60ce6d0d85360f27218') in 0.010422 seconds 
-  Import took 0.014055 seconds .
+Start importing Assets/jetkara/Sprites/InGame/free-icon-cloud-1163624.png using Guid(51e2ad3ac7829074ca6bca08963c7f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3121bd1b34634c3c3e93841370fb7b') in 0.015206 seconds 
+  Import took 0.018301 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/jetkara/Sprites/InGame/mount2.png
-  artifactKey: Guid(598c502db1c2742438e0ec38de5b7c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sprites/InGame/mount2.png using Guid(598c502db1c2742438e0ec38de5b7c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a2b35f11b1c83f50740b52c2e227e3') in 0.042240 seconds 
-  Import took 0.046320 seconds .
+  Time since last request: 0.000237 seconds.
+  path: Assets/jetkara/Sprites/InGame/back.png
+  artifactKey: Guid(470e91cc5571e86449a86c5d207b37ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/InGame/back.png using Guid(470e91cc5571e86449a86c5d207b37ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d83178544401321a56d46a6f23c4a5') in 0.014209 seconds 
+  Import took 0.017206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/jetkara/Sprites/Menu/christmas-ball_3.png
+  artifactKey: Guid(51b59806f243c6b49adefe92b1df2826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/Menu/christmas-ball_3.png using Guid(51b59806f243c6b49adefe92b1df2826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1c78feed7f6b8f065f72e091462eb5') in 0.013437 seconds 
+  Import took 0.016590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/jetkara/Sprites/InGame/christmas-ball2.png
+  artifactKey: Guid(225859a98a6c87c48a196a2f8dffdd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/InGame/christmas-ball2.png using Guid(225859a98a6c87c48a196a2f8dffdd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8959d54df3f5c81626a036f1a26539f') in 0.014030 seconds 
+  Import took 0.017087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.002251 seconds.
+  path: Assets/jetkara/Sprites/InGame/pause1.png
+  artifactKey: Guid(7b736d128f2ed0e4f91a05e11ad47f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/InGame/pause1.png using Guid(7b736d128f2ed0e4f91a05e11ad47f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3e982f05f2246aa6ca955a9a1dd37d') in 0.016516 seconds 
+  Import took 0.021289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/jetkara/Sprites/InGame/water.png
+  artifactKey: Guid(2632b4145593d1546a35cc20b127a90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/InGame/water.png using Guid(2632b4145593d1546a35cc20b127a90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c021f74050e781eb5365778b25978020') in 0.019750 seconds 
+  Import took 0.022870 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000288 seconds.
-  path: Assets/jetkara/Sprites/InGame/mount3.png
-  artifactKey: Guid(c1873a205c160fb4ba1e581e4dc72b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sprites/InGame/mount3.png using Guid(c1873a205c160fb4ba1e581e4dc72b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eec7a5b9ac49a182b481b277e6f79d4') in 0.024249 seconds 
-  Import took 0.030857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
   path: Assets/jetkara/Sprites/InGame/santa-claus.png
   artifactKey: Guid(5d7f05d3ee3b18945b9aab6dbda8b361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sprites/InGame/santa-claus.png using Guid(5d7f05d3ee3b18945b9aab6dbda8b361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c8593e0a960f5c3d14f663df9bdd13') in 0.012409 seconds 
-  Import took 0.016198 seconds .
+Start importing Assets/jetkara/Sprites/InGame/santa-claus.png using Guid(5d7f05d3ee3b18945b9aab6dbda8b361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cd2f64f19ce67223efaa2485720cb3') in 0.014914 seconds 
+  Import took 0.018756 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000173 seconds.
+  Time since last request: 0.000257 seconds.
+  path: Assets/jetkara/Sprites/Menu/play2.png
+  artifactKey: Guid(1d5a308af8b14fd4db629820b1e17a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/Menu/play2.png using Guid(1d5a308af8b14fd4db629820b1e17a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e863f988cd34c0439ab188cc3e3858') in 0.014832 seconds 
+  Import took 0.018138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
   path: Assets/jetkara/Sprites/InGame/santa-claus-sled111.png
   artifactKey: Guid(396c44505b676b8488c7997d87fadc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sprites/InGame/santa-claus-sled111.png using Guid(396c44505b676b8488c7997d87fadc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97c31c7ba4af9715632be9503d73300') in 0.012428 seconds 
-  Import took 0.017235 seconds .
+Start importing Assets/jetkara/Sprites/InGame/santa-claus-sled111.png using Guid(396c44505b676b8488c7997d87fadc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799c1ce4403fd3f506694e4565152376') in 0.019000 seconds 
+  Import took 0.022090 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/jetkara/Sprites/InGame/christmas-ball2.png
-  artifactKey: Guid(225859a98a6c87c48a196a2f8dffdd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sprites/InGame/christmas-ball2.png using Guid(225859a98a6c87c48a196a2f8dffdd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9e8318fc84f562b9db2fce52f2b1a7') in 0.011937 seconds 
-  Import took 0.015950 seconds .
+  Time since last request: 359.418750 seconds.
+  path: Assets/Particles/Materials/Textures/Flare.png
+  artifactKey: Guid(14a5a91080a61704ea6c9eead80959f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Materials/Textures/Flare.png using Guid(14a5a91080a61704ea6c9eead80959f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e84e409fb0de320f27504ba216bcf54') in 0.015101 seconds 
+  Import took 0.018788 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.008444 seconds.
-  path: Assets/jetkara/Sprites/InGame/santa-claus-sled111.png
-  artifactKey: Guid(396c44505b676b8488c7997d87fadc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sprites/InGame/santa-claus-sled111.png using Guid(396c44505b676b8488c7997d87fadc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97c31c7ba4af9715632be9503d73300') in 0.011560 seconds 
-  Import took 0.016878 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007048 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000000071EB75C0 doesn't match image C:\Users\kycaka\Documents\GitHub\floroz\floroz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.219 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1219ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1014ms)
-			LoadAssemblies (109ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (385ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (373ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (300ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.9 MB.
-System memory in use after: 96.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2553.
-Total: 3.678189 ms (FindLiveObjects: 0.206025 ms CreateObjectMapping: 0.075846 ms MarkObjects: 3.377356 ms  DeleteObjects: 0.018232 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012768 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000000006BC287C0 doesn't match image C:\Users\kycaka\Documents\GitHub\floroz\floroz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.198 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1199ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1020ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (342ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (409ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (334ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.0 MB.
-System memory in use after: 96.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2556.
-Total: 3.816390 ms (FindLiveObjects: 0.214047 ms CreateObjectMapping: 0.074023 ms MarkObjects: 3.190292 ms  DeleteObjects: 0.336933 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 525.214475 seconds.
-  path: Assets/jetkara/Sprites/InGame/button.png
-  artifactKey: Guid(c8ff035d8e78b4e4c9351a43a90f7134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sprites/InGame/button.png using Guid(c8ff035d8e78b4e4c9351a43a90f7134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8587603d2d9cd784353c19f252e8636') in 0.197256 seconds 
-  Import took 0.202250 seconds .
+  Time since last request: 0.000280 seconds.
+  path: Assets/Particles/Materials/Textures/Rain.png
+  artifactKey: Guid(bbc95e296f9bf3a4baeda78e903b8801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Materials/Textures/Rain.png using Guid(bbc95e296f9bf3a4baeda78e903b8801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f355ae483023f2ef35c52aac721eb75') in 0.010833 seconds 
+  Import took 0.014041 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.075741 seconds.
-  path: Assets/jetkara/Sounds/gg.mp3
-  artifactKey: Guid(2cdb513c7dab7904abb893fbcedd4bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sounds/gg.mp3 using Guid(2cdb513c7dab7904abb893fbcedd4bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257d2f0786e848f96c03592e3223d71a') in 0.052806 seconds 
-  Import took 0.057515 seconds .
+  Time since last request: 0.000250 seconds.
+  path: Assets/jetkara/Sprites/InGame/premium-icon-cloud-3236851.png
+  artifactKey: Guid(76f076842a9f26b4ea84d693b87883df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/InGame/premium-icon-cloud-3236851.png using Guid(76f076842a9f26b4ea84d693b87883df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350eb571cfc00a8f5d95934c6c12b40b') in 0.017358 seconds 
+  Import took 0.021070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Particles/Materials/Textures/Flare.png
+  artifactKey: Guid(14a5a91080a61704ea6c9eead80959f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Materials/Textures/Flare.png using Guid(14a5a91080a61704ea6c9eead80959f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e84e409fb0de320f27504ba216bcf54') in 0.007054 seconds 
+  Import took 0.010508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/jetkara/Sprites/rocket0.png
+  artifactKey: Guid(37d4e6f3c28c5e647a4e57eb6c0a2aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/rocket0.png using Guid(37d4e6f3c28c5e647a4e57eb6c0a2aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d94d3dccf128c7ac3538eae17508773') in 0.013962 seconds 
+  Import took 0.017050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/jetkara/Sprites/rocket1.png
+  artifactKey: Guid(242d6d50e4b8fe547b5b1af5ddd9dacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/rocket1.png using Guid(242d6d50e4b8fe547b5b1af5ddd9dacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ff8aae7967af7dc6614afda238ce8b') in 0.012431 seconds 
+  Import took 0.015423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Particles/Materials/Textures/Leaf.png
+  artifactKey: Guid(c66b710befd2be3458bfe841ed8b0001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Materials/Textures/Leaf.png using Guid(c66b710befd2be3458bfe841ed8b0001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79ed7bc41208d411b5d7363b5125e38') in 0.009353 seconds 
+  Import took 0.012128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/jetkara/Sprites/InGame/mount2.png
+  artifactKey: Guid(598c502db1c2742438e0ec38de5b7c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/InGame/mount2.png using Guid(598c502db1c2742438e0ec38de5b7c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed3b4ceca4d59d8976b51492bbe5383') in 0.028677 seconds 
+  Import took 0.031448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/jetkara/Sprites/InGame/mount3.png
+  artifactKey: Guid(c1873a205c160fb4ba1e581e4dc72b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/InGame/mount3.png using Guid(c1873a205c160fb4ba1e581e4dc72b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0ad5286371b1ce99571d080c74c016') in 0.019135 seconds 
+  Import took 0.022108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084583 seconds.
+  path: Assets/jetkara/Sprites/InGame/mount2.png
+  artifactKey: Guid(598c502db1c2742438e0ec38de5b7c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/InGame/mount2.png using Guid(598c502db1c2742438e0ec38de5b7c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed3b4ceca4d59d8976b51492bbe5383') in 0.019204 seconds 
+  Import took 0.022601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.262793 seconds.
+  path: Assets/Particles/Materials/Textures/Snow.png
+  artifactKey: Guid(96b0e7aaa1743664eaabb3fdca1b2415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Materials/Textures/Snow.png using Guid(96b0e7aaa1743664eaabb3fdca1b2415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090caff4885456c5dca0da6564f00237') in 0.010657 seconds 
+  Import took 0.013862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/jetkara/Prefabs/sos1.png
+  artifactKey: Guid(2a43ef61f41d19e40a4d7056ac2fdd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Prefabs/sos1.png using Guid(2a43ef61f41d19e40a4d7056ac2fdd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570f60b61eae27b2e43269374d9095ec') in 0.014762 seconds 
+  Import took 0.017600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038141 seconds.
+  path: Assets/jetkara/Prefabs/sos2.png
+  artifactKey: Guid(7119837d0cdabc3479fb9cfd702406a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Prefabs/sos2.png using Guid(7119837d0cdabc3479fb9cfd702406a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf0310502eb72814ce7d3ad6043c438') in 0.011788 seconds 
+  Import took 0.014998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/jetkara/Sprites/Menu/sound-off.png
+  artifactKey: Guid(29429d75c368e5942a4c7a51d8c55da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/Menu/sound-off.png using Guid(29429d75c368e5942a4c7a51d8c55da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba50146e1d15bfb918a9a0f51148fba') in 0.011927 seconds 
+  Import took 0.014899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/jetkara/Prefabs/sos2.png
+  artifactKey: Guid(7119837d0cdabc3479fb9cfd702406a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Prefabs/sos2.png using Guid(7119837d0cdabc3479fb9cfd702406a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf0310502eb72814ce7d3ad6043c438') in 0.010637 seconds 
+  Import took 0.013725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/jetkara/Sprites/Menu/sound-off.png
+  artifactKey: Guid(29429d75c368e5942a4c7a51d8c55da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/Menu/sound-off.png using Guid(29429d75c368e5942a4c7a51d8c55da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba50146e1d15bfb918a9a0f51148fba') in 0.014115 seconds 
+  Import took 0.017210 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000224 seconds.
-  path: Assets/jetkara/Sounds/Jump.ogg
-  artifactKey: Guid(1f993a204e189b14faf695f6e3a89c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sounds/Jump.ogg using Guid(1f993a204e189b14faf695f6e3a89c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63873d583c702c9a5e3d4eca76b73b22') in 0.018530 seconds 
-  Import took 0.022122 seconds .
+  path: Assets/jetkara/Sprites/Menu/title_EN.png
+  artifactKey: Guid(cfda109ae85065641ada7e5cd2381f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/Menu/title_EN.png using Guid(cfda109ae85065641ada7e5cd2381f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2739647c29755b543c70d6e88686627e') in 0.014374 seconds 
+  Import took 0.017256 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/jetkara/Sounds/MainMusic.mp3
-  artifactKey: Guid(c5fa1c0b735175b45bd1f963c3b69f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sounds/MainMusic.mp3 using Guid(c5fa1c0b735175b45bd1f963c3b69f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fefec07360aa7f9077ab281e30ec04') in 0.008875 seconds 
-  Import took 0.013408 seconds .
+  Time since last request: 0.000203 seconds.
+  path: Assets/jetkara/Sprites/Menu/sound-on.png
+  artifactKey: Guid(75c9b34a608c42d4f82078bfee3218d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/Menu/sound-on.png using Guid(75c9b34a608c42d4f82078bfee3218d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21169715d82ed9a4143097a6e6f27bca') in 0.015105 seconds 
+  Import took 0.018371 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/jetkara/Sounds/Jump.mp3
-  artifactKey: Guid(719de3d4c2ad4e94294c0ddc7ebbf859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sounds/Jump.mp3 using Guid(719de3d4c2ad4e94294c0ddc7ebbf859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00b3666f69abb152bb8b8d4b5cf72be') in 0.008768 seconds 
-  Import took 0.013634 seconds .
+  Time since last request: 0.000219 seconds.
+  path: Assets/jetkara/Sprites/Menu/title_EN.png
+  artifactKey: Guid(cfda109ae85065641ada7e5cd2381f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Sprites/Menu/title_EN.png using Guid(cfda109ae85065641ada7e5cd2381f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2739647c29755b543c70d6e88686627e') in 0.017322 seconds 
+  Import took 0.020500 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/jetkara/Sounds/MainMusic.mp3
-  artifactKey: Guid(c5fa1c0b735175b45bd1f963c3b69f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Sounds/MainMusic.mp3 using Guid(c5fa1c0b735175b45bd1f963c3b69f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fefec07360aa7f9077ab281e30ec04') in 0.009924 seconds 
-  Import took 0.014184 seconds .
+  Time since last request: 160.342675 seconds.
+  path: Assets/jetkara
+  artifactKey: Guid(9c903fc23fe5b7447b9a907efc2aa02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara using Guid(9c903fc23fe5b7447b9a907efc2aa02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772890d05176202e9f977835beb9fddb') in 0.005470 seconds 
+  Import took 0.008504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.044517 seconds.
+  path: Assets/jetkara/Animations
+  artifactKey: Guid(2bcfd2977471d9f4a85f58bd85d71ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Animations using Guid(2bcfd2977471d9f4a85f58bd85d71ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14b8060fc346a538ed76f7663bc7cd6') in 0.006210 seconds 
+  Import took 0.009407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.747799 seconds.
+  path: Assets/jetkara/Scripts
+  artifactKey: Guid(23f35494674154243b030256486240ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Scripts using Guid(23f35494674154243b030256486240ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d5eed943d6193c2e9b775674de51e1') in 0.006365 seconds 
+  Import took 0.009692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.601567 seconds.
+  path: Assets/jetkara/Prefabs
+  artifactKey: Guid(dba190982bdb5b24d9472e848f9233c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Prefabs using Guid(dba190982bdb5b24d9472e848f9233c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f7a127b28f388a14a64d69f20b1b0c') in 0.006153 seconds 
+  Import took 0.009194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058436 seconds.
+  path: Assets/jetkara/Prefabs/Object.prefab
+  artifactKey: Guid(676929dfdb252a947a8c35ac508610b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Prefabs/Object.prefab using Guid(676929dfdb252a947a8c35ac508610b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c3449ac5c2ce6115c8d7b5e3c2a16f') in 0.034783 seconds 
+  Import took 0.038126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.372330 seconds.
+  path: Assets/jetkara/Fonts
+  artifactKey: Guid(da53346dafe8b5b4faf37d1b18d0d09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Fonts using Guid(da53346dafe8b5b4faf37d1b18d0d09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab007d3f7c02c07b118e620218aba82') in 0.007090 seconds 
+  Import took 0.010071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.039403 seconds.
+  path: Assets/jetkara/Fonts/TektonPro-Bold.otf
+  artifactKey: Guid(734eecab57391a74ea8985fcd8e03990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/Fonts/TektonPro-Bold.otf using Guid(734eecab57391a74ea8985fcd8e03990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe3182a1d4025060f4b2efabf48ff04') in 0.039295 seconds 
+  Import took 0.042577 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002671 seconds.
+Registered in 0.005061 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000000006F328FD0 doesn't match image C:\Users\kycaka\Documents\GitHub\floroz\floroz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.147 seconds
+- Completed reload, in  0.998 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1147ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (999ms)
+		BeginReloadAssembly (117ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (989ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (337ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (402ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (328ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.2 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2567.
-Total: 4.770306 ms (FindLiveObjects: 0.251606 ms CreateObjectMapping: 0.096996 ms MarkObjects: 4.352421 ms  DeleteObjects: 0.067460 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004489 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000000006F328FD0 doesn't match image C:\Users\kycaka\Documents\GitHub\floroz\floroz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.125 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1126ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (953ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (313ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (388ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (313ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.2 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2570.
-Total: 3.424031 ms (FindLiveObjects: 0.206025 ms CreateObjectMapping: 0.111217 ms MarkObjects: 3.087827 ms  DeleteObjects: 0.018232 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002564 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000000006EA66880 doesn't match image C:\Users\kycaka\Documents\GitHub\floroz\floroz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.113 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1114ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (955ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (313ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (384ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (308ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.2 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2573.
-Total: 3.336880 ms (FindLiveObjects: 0.206755 ms CreateObjectMapping: 0.129450 ms MarkObjects: 2.983173 ms  DeleteObjects: 0.016774 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003145 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000000006E7C1080 doesn't match image C:\Users\kycaka\Documents\GitHub\floroz\floroz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.094 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1095ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (927ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (298ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (378ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (298ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.2 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2576.
-Total: 3.496960 ms (FindLiveObjects: 0.221340 ms CreateObjectMapping: 0.068918 ms MarkObjects: 3.175342 ms  DeleteObjects: 0.030266 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 5131.759473 seconds.
-  path: Assets/jetkara/Scripts/SetScore.cs
-  artifactKey: Guid(d3bcaf617778a2343ac1b2dfed56f81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Scripts/SetScore.cs using Guid(d3bcaf617778a2343ac1b2dfed56f81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf460afbec9d1e8426ea9e092296de08') in 0.010436 seconds 
-  Import took 0.015324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002699 seconds.
-  path: Assets/jetkara/Scripts/SetScore.cs
-  artifactKey: Guid(d3bcaf617778a2343ac1b2dfed56f81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Scripts/SetScore.cs using Guid(d3bcaf617778a2343ac1b2dfed56f81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf460afbec9d1e8426ea9e092296de08') in 0.001472 seconds 
-  Import took 0.006056 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004859 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000000006B5BDA10 doesn't match image C:\Users\kycaka\Documents\GitHub\floroz\floroz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.234 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1234ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1048ms)
-			LoadAssemblies (103ms)
+		EndReloadAssembly (823ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (352ms)
+			SetupTypeCache (270ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (439ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (336ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (345ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.3 MB.
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2579.
-Total: 3.204149 ms (FindLiveObjects: 0.219153 ms CreateObjectMapping: 0.090432 ms MarkObjects: 2.874508 ms  DeleteObjects: 0.018962 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2615.
+Total: 2.799900 ms (FindLiveObjects: 0.156600 ms CreateObjectMapping: 0.059600 ms MarkObjects: 2.544400 ms  DeleteObjects: 0.038500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -701,120 +615,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004569 seconds.
+Registered in 0.005063 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.139 seconds
+- Completed reload, in  1.173 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1140ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (1173ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (972ms)
-			LoadAssemblies (84ms)
+		EndReloadAssembly (980ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (313ms)
+			SetupTypeCache (319ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (402ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (405ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (322ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (297ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.3 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2582.
-Total: 4.333459 ms (FindLiveObjects: 0.210036 ms CreateObjectMapping: 0.084598 ms MarkObjects: 4.004183 ms  DeleteObjects: 0.033912 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 749.949490 seconds.
-  path: Assets/jetkara/Scripts/SetScore.cs
-  artifactKey: Guid(d3bcaf617778a2343ac1b2dfed56f81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Scripts/SetScore.cs using Guid(d3bcaf617778a2343ac1b2dfed56f81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ba03302ebfc3ab249e0a7aea3cb55e') in 0.004603 seconds 
-  Import took 0.008620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.723852 seconds.
-  path: Assets/jetkara/Scripts/SetScore.cs
-  artifactKey: Guid(d3bcaf617778a2343ac1b2dfed56f81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jetkara/Scripts/SetScore.cs using Guid(d3bcaf617778a2343ac1b2dfed56f81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ba03302ebfc3ab249e0a7aea3cb55e') in 0.001495 seconds 
-  Import took 0.005550 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003482 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.113 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1113ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (953ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (304ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (410ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (337ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.3 MB.
+System memory in use before: 96.3 MB.
+System memory in use after: 96.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2585.
-Total: 3.463777 ms (FindLiveObjects: 0.211130 ms CreateObjectMapping: 0.147317 ms MarkObjects: 3.087462 ms  DeleteObjects: 0.016774 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2618.
+Total: 3.226700 ms (FindLiveObjects: 0.230600 ms CreateObjectMapping: 0.128600 ms MarkObjects: 2.849000 ms  DeleteObjects: 0.017400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -826,4 +669,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 77.436292 seconds.
+  path: Assets/jetkara/JetKara-Manual.pdf
+  artifactKey: Guid(0b7b471344774264198be7220af0027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jetkara/JetKara-Manual.pdf using Guid(0b7b471344774264198be7220af0027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04a725e2a5b3795308fbcd414198767') in 0.017748 seconds 
+  Import took 0.021030 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
