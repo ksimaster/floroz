@@ -7,7 +7,9 @@ public class PlayerScript : MonoBehaviour
 	public AudioClip[] auClip;
 	public GameObject fire;
 
-	void Start()
+    public GameObject Yandex;
+
+    void Start()
 	{
 		dead = false;
 		GetComponent<AudioSource>().clip = auClip[0];
@@ -49,6 +51,7 @@ public class PlayerScript : MonoBehaviour
 				GetComponent<AudioSource>().clip = auClip[1];
 				GetComponent<AudioSource>().Play();
 				Invoke("BackToMain", 1.5f);
+                Yandex.GetComponent<YandexSDK>().ShowInterstitial();
 			}
 		}
 	}
