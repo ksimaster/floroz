@@ -48,6 +48,9 @@ public class VKSDK : MonoBehaviour
     private static extern void GetLeaderBoardEntries();
     [DllImport("__Internal")]
     private static extern void SetLeaderBoard(int score);
+    
+    [DllImport("__Internal")]
+    private static extern void Invite();
 
 
 
@@ -95,6 +98,11 @@ public class VKSDK : MonoBehaviour
     public void ShowRewardAdvertisment()    // Показ рекламы с наградой
     {
         ShowRewardADV();
+    }
+
+    public void InviteFriend() // создание по аналогии с рекламой метода добавления друзей (высосано из пальца и не на чем не основано)
+    {
+        Invite();
     }
 
 
