@@ -14,7 +14,7 @@ public class OpenLevel : MonoBehaviour
 	void OnMouseUp()
 	{
 		transform.localScale = new Vector3(1,1,1);
-        if(levelName == "MainMenu") VK.GetComponent<VKSDK>().ShowCommonAdvertisment();  
+        if(levelName == "MainMenu") VK.GetComponent<ADScript>().ShowAdInterstitial();  
         SceneManager.LoadScene(levelName);
 	}
 }
