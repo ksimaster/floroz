@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class OpenLevel : MonoBehaviour 
 {
 	public string levelName;
-    public GameObject Yandex;
+    //public GameObject Yandex;
 
 	void OnMouseDown()
 	{
@@ -14,7 +14,7 @@ public class OpenLevel : MonoBehaviour
 	void OnMouseUp()
 	{
 		transform.localScale = new Vector3(1,1,1);
-       if(levelName == "MainMenu") Yandex.GetComponent<YandexSDK>().ShowInterstitial();
+      // if(levelName == "MainMenu") Yandex.GetComponent<YandexSDK>().ShowInterstitial();
         SceneManager.LoadScene(levelName);
 	}
 }
